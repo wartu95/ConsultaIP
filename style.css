@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+  }
+  
+  body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  nav {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 50px;
+    padding: 5px;
+
+
+  }
+  .text{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  .text h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 55px;
+  }
+  #ipForm{
+display: flex;
+flex-direction: column;
+  }
+  .boton{
+    align-self: flex-end;
+  }
+
+  #Cancelar{
+    margin-left: 10px;
+    background-color: red;
+    border: 1px solid red;
+
+  }
+  
+  #formulario {
+    flex: 1; 
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+ 
+
+  #output {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #e7e6e6;
+    border-radius: 5px;
+    color: black;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  footer .social-icon {
+    width: 30px; 
+    height: 30px;
+    margin: 0 5px;
+    transition: transform 0.3s;
+  }
+  
+  footer .social-icon:hover {
+    transform: scale(1.4); 
+    cursor: pointer;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+  nav .social-icon {
+    width: 40px; 
+    height: 40px;
+    margin: 0 5px;
+    transition: transform 0.3s;
+  }
+  
+  nav .social-icon:hover {
+    transform: scale(1.4); 
+    cursor: pointer;
+  }
+  

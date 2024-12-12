@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consulta de IP</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <header>
+    <div class="container"></div>
+    <nav >
+      <ul>
+        <li><a href="#" data-theme-switcher="auto"><img src="https://img.icons8.com/?size=100&id=3nwkeZu4WBI4&format=png&color=000000" alt="auto" title="auto" class="social-icon"></a></li>
+        <li><a href="#" data-theme-switcher="light"><img src="https://img.icons8.com/?size=100&id=P1jJMyJVPTCH&format=png&color=000000" alt="light" title="light" class="social-icon"></a></li>
+        <li><a href="#" data-theme-switcher="dark"><img src="https://img.icons8.com/?size=100&id=hGNvZ7xKOOnY&format=png&color=000000" alt="oscuro" title="oscuro" class="social-icon"></a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <div class="text">
+      <h1>Consulta de IP</h1>
+    <p>
+      Realiza la consulta de cualquier ip, ingrese el ip y dale consultar para
+      obtener información.
+    </p>
+    </div>
+    <section id="formulario" >
+      <div>
+        <form id="ipForm">
+          <input type="text" id="ipInput" placeholder="Ingrese el numero de IP a consultar....." />
+          <div class="boton"><button  id="lookupButton">Consultar</button>
+            <button  id="Cancel" class="secondary">Cancelar</button></div>
+          
+          <p id="output"></p>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <a href="https://linkedin.com/wartu95" target="_blank">
+          <img src="https://img.icons8.com/?size=100&id=447&format=png&color=000000" alt="LinkedIn" title="LinkedIn" class="social-icon">
+        </a>
+        <a href="https://github.com/" target="_blank">
+          <img src="https://img.icons8.com/?size=100&id=SzgQDfObXUbA&format=png&color=000000" alt="GitHub" title="GitHub" class="social-icon">
+        </a>
+      </div>
+      <p>&copy; 2024 Wartu. Todos los derechos reservados.</p>
+    </footer>
+  
+    <script src="script.js"></script>
+    <script src="theme.js"></script>
+  </body>
+</html>
