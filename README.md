@@ -19,6 +19,7 @@ Este proyecto refleja mi interés genuino por la tecnología y mi compromiso con
 ## Lo que aprendí
 
 - **Consulta de APIs:** Integré servicios externos para obtener información sobre direcciones IP.
+- **Modo oscuro:** Implementé la función de modo oscuro para adaptarse a las preferencias del usuario.
 - **Despliegue web:** Aprendí a usar GitHub Pages para publicar proyectos en línea.
 - **Gestión de versiones:** Utilicé Git y GitHub para controlar cambios y mantener el orden en el desarrollo.
 - **Documentación:** Entendí la importancia de documentar cada paso para facilitar futuras mejoras o colaboraciones.
