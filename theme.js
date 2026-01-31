@@ -5,10 +5,10 @@ const themeSwitcher = {
     //Configuracion inicial
     _scheme: "auto",
     menuTarget: "details.dropdown",
-    buttonsTarget: "a[data-theme-switcher]",
+    buttonsTarget: "[data-theme-switcher]",
     buttonAttribute: "data-theme-switcher",
     rootAttribute: "data-theme",
-    localStorageKey: "picoPreferredColorScheme",
+    localStorageKey: "traceipPreferredColorScheme",
   
     //init -  Inicialización
     init() {
@@ -17,7 +17,7 @@ const themeSwitcher = {
     },
   
     //Obtener el esquema desde el almacenamiento local
-    get schemeFromLocalStorege() {
+    get schemeFromLocalStorage() {
       return window.localStorage?.getItem(this.localStorageKey) ?? this._scheme;
     },
   
@@ -64,7 +64,7 @@ const themeSwitcher = {
   
     //Apply scheme
     applyScheme() {
-      document.querySelector("html")?.setAttribute(this.rootAttribute, this.scheme);
+      document.documentElement?.setAttribute(this.rootAttribute, this.scheme);
     },
   
     // Store scheme to local storage
