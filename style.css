@@ -268,16 +268,16 @@ html[data-theme="dark"] .btn-secondary:hover {
 }
 
 #output {
-  padding: 1.5rem;
-  background: var(--bg-light-secondary);
-  border: 2px solid var(--border-light);
-  border-radius: 0.75rem;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
   animation: slideIn 0.3s ease;
 }
 
 html[data-theme="dark"] #output {
-  background: var(--bg-dark);
-  border-color: #374151;
+  background: transparent;
+  border-color: transparent;
 }
 
 #output p {
@@ -290,6 +290,112 @@ html[data-theme="dark"] #output {
 }
 
 html[data-theme="dark"] #output strong {
+  color: #60a5fa;
+}
+
+/* Card result styles */
+.result-card {
+  background: var(--bg-light-secondary);
+  border: 2px solid var(--border-light);
+  border-radius: 1rem;
+  box-shadow: var(--shadow-xl);
+  overflow: hidden;
+}
+
+html[data-theme="dark"] .result-card {
+  background: var(--bg-dark);
+  border-color: #374151;
+}
+
+.result-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: #fff;
+}
+
+.result-card__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.badge {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.result-card__body {
+  padding: 1.25rem;
+}
+
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .result-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.result-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  background: var(--bg-light);
+}
+
+html[data-theme="dark"] .result-item {
+  background: var(--bg-dark-secondary);
+}
+
+.result-label {
+  font-size: 0.8rem;
+  color: var(--text-light-secondary);
+}
+
+html[data-theme="dark"] .result-label {
+  color: #9ca3af;
+}
+
+.result-value {
+  font-weight: 600;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 1rem;
+  background: var(--accent-color);
+  color: var(--text-light);
+  font-size: 0.85rem;
+}
+
+html[data-theme="dark"] .chip {
+  color: #191726;
+}
+
+.map-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+html[data-theme="dark"] .map-link {
   color: #60a5fa;
 }
 
