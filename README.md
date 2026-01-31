@@ -8,7 +8,7 @@
 
 El proyecto está desplegado en GitHub Pages y puede ser utilizado desde la siguiente web pública:
 
-[TraceIP - Demo](https://wartu95.github.io/ConsultaIP/)
+[TraceIP - Demo](https://wartu95.github.io/TraceIP/)
 
 ## ✨ Características
 
@@ -33,8 +33,8 @@ El proyecto está desplegado en GitHub Pages y puede ser utilizado desde la sigu
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/wartu95/ConsultaIP.git
-   cd ConsultaIP
+   git clone https://github.com/wartu95/TraceIP.git
+   cd TraceIP
    ```
 2. Abre el archivo `index.html` en tu navegador favorito
 
