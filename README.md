@@ -33,7 +33,7 @@ El proyecto está desplegado en GitHub Pages y puede ser utilizado desde la sigu
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/wartu95/TraceIP.git
+   git clone https://github.com/[Usuario]/TraceIP.git
    cd TraceIP
    ```
 2. Abre el archivo `index.html` en tu navegador favorito
